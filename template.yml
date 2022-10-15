@@ -1,0 +1,8 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: ND9991 C3 L4 
+Resources:
+  ECSCluster:
+    Type: 'AWS::ECS::Cluster'
+    Properties:
+      ClusterName: initial-cluster
+    
